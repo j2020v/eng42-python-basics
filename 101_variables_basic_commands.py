@@ -31,3 +31,9 @@ print(type(14.0))
 
 variable_number = '14'
 # print (type('10'*variable_number)) THIS WILL BREAK -- DATATYPES ARE KEY --
+
+# input ()
+#it prompts user for input
+print('What is your favorite color?')
+user_response = input('Now really, what is your favorite color?')
+print(user_response)

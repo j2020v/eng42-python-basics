@@ -21,7 +21,7 @@ print(full_name)
 name = 'Rachel'
 welcome_message = 'Hey there, how you doin?'
 print(f'Hey there, {name} how you doin?')
-# place f in the beginning of the string then use {} to interpolate python variables inside 
+# place f in the beginning of the string then use {} to interpolate python variables inside
 
 
 # Useful methods for strings
