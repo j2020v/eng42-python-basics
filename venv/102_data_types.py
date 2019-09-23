@@ -40,4 +40,26 @@ my_variable2 = 13
 print(my_variable1 == my_variable2)
 print(my_variable2 > my_variable1)
 
-# Boolean Values 
+# Boolean Values
+# Defined by either True or False
+print(type(True))
+print(type(False))
+print(0 == False)
+print(1 == True)
+
+# None
+print(None)
+print(type(None))
+
+# Logical AND & OR
+a = True
+b = False
+
+# Using *and* both sides have to be true for it to result in true
+print(a and True)
+print ((1 == 1) and True)
+
+# Use or, ONLY 1 side needs to be true
+print('this will print true')
+print (True or False)
+print(True or 1 ==2)
