@@ -2,10 +2,8 @@
 This repo contains our basics for python. This course will cover the following: 
 1. Setup
 ## Data Types
-- How to define/ Syntax -  place f in the beginning of the string then use {} to interpolate python variables inside 
-
-- How to access/ How is it organised - 
-
+- How to define/ Syntax 
+- How to access/ How is it organised 
 - How to add to a list or a dictionary - lists keep objects in order of index and it's defined by []
 <p> i. Strings - list of characters and are in ' '</p>
 <p>ii. Integer - whole numbers </p>   

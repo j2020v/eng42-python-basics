@@ -45,13 +45,23 @@ print(crazy_x_partners)
 # Lists can have many data types
 hybrid_list = ['this is a string', 12, 66, 'hello', [1,2,3], [1,2,2]]
 
+# Range slicing
+print(crazy_x_partners[:1]) # 0 to 1, not inclusive of [1] -- only printed index [0]
+
+# Jumping/slicing
+# syntax [N::M]
+
+example_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(example_list[1::3])
+print(example_list[::3])
+print(example_list[::2])
 
 # What happens when you have 300000000 index?
 # -- Loops and other data formats
 
-# Tuples are immutable lists -- do not change
-my_tuple = (2, 'hello', 22, 'more value')
-print(my_tuple)
-print(type(my_tuple))
-
-print(my_tuple[0])
+# # Tuples are immutable lists -- do not change
+# my_tuple = (2, 'hello', 22, 'more value')
+# print(my_tuple)
+# print(type(my_tuple))
+#
+# print(my_tuple[0])
