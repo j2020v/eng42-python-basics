@@ -42,9 +42,16 @@ crazy_x_partners.pop(1) #Removes based on the index
 print(crazy_x_partners)
 
 # Mixed data and lists
-# Lists can have many data types 
+# Lists can have many data types
 hybrid_list = ['this is a string', 12, 66, 'hello', [1,2,3], [1,2,2]]
 
 
 # What happens when you have 300000000 index?
-# -- Loops
+# -- Loops and other data formats
+
+# Tuples are immutable lists -- do not change
+my_tuple = (2, 'hello', 22, 'more value')
+print(my_tuple)
+print(type(my_tuple))
+
+print(my_tuple[0])
