@@ -50,7 +50,8 @@ print(crazy_x_partners[:1]) # 0 to 1, not inclusive of [1] -- only printed index
 
 # Jumping/slicing
 # syntax [N::M]
-
+# N is where it starts
+# M is for every second number
 example_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(example_list[1::3])
 print(example_list[::3])
