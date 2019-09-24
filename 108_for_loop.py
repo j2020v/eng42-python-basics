@@ -35,22 +35,22 @@ for key, values in student1.items():
     print(count_1, key, values)
     count_1 += 1
 #
-# students = {
-#     'student1': student1,
-#     'student2': {
-#         'name': 'Stirling Archer',
-#         'stream': 'Chaos',
-#         'grade': 10,
-#         'module': ['danger', 'robust liver']
+students = {
+    'student1': student1,
+    'student2': {
+        'name': 'Stirling Archer',
+        'stream': 'Chaos',
+        'grade': 10,
+        'module': ['danger', 'robust liver']
 #
 #
 # #Task two: do the same but with the embeded dictionary
 for student_key in students:
          #print(student_key)
-        count_1 += 1
+        count_1 += 1,
         for key in students[student_key]:
             print(count_1, key, ':',   students[student_key][key])
-            count_1 += 1
+            count_1 += 1,
 
 for key1 in students:
     # print(key1)
