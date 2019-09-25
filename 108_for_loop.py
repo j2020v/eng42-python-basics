@@ -42,20 +42,20 @@ students = {
         'stream': 'Chaos',
         'grade': 10,
         'module': ['danger', 'robust liver']
-#
-#
-# #Task two: do the same but with the embeded dictionary
+
+
+#Task two: do the same but with the embedded dictionary
 for student_key in students:
-         #print(student_key)
+    print(student_key)
         count_1 += 1,
         for key in students[student_key]:
             print(count_1, key, ':',   students[student_key][key])
             count_1 += 1,
 
-for key1 in students:
-    # print(key1)
-    # print (type(students[key1]))
+    for key1 in students:
+        print(key1)
+        print (type(students[key1]))
     for key2 in students[key1]:
-        # print (key2)
-        # print (students[key1][key2])
-    print(f'{counter} - {key2}, {students [key1][key2]')
+        print (key2)
+        print (students[key1][key2])
+        print(f'{count_1} - {key2}, {students [key1][key2]}')
